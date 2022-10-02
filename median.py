@@ -15,7 +15,7 @@ listLeng = len(numbers)
 numbersorted = numbers.sort()
 
 if (listLeng % 2 !=0 ):
-    return numbersorted[listleng // 2 ]
+    print(numbersorted[listleng // 2 ])
 else:
     med = (numbersorted[listleng // 2 ] + numbersorted[listleng // 2 + 1 ]) / 2
-    return med
+    print( med)
