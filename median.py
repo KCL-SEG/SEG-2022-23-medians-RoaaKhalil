@@ -12,10 +12,10 @@ while True:
 print(numbers)
 
 listLeng = len(numbers)
-numbersorted = numbers.sort()
+numbers.sort()
 
 if (listLeng % 2 !=0 ):
-    print(numbersorted[listLeng // 2 ])
+    print(numbers[listLeng // 2 ])
 else:
-    med = (numbersorted[listLeng // 2 ] + numbersorted[listleng // 2 - 1 ]) / 2
+    med = (numbers[listLeng // 2 ] + numbers[listleng // 2 - 1 ]) / 2
     print( med)
