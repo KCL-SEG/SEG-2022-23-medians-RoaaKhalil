@@ -17,5 +17,5 @@ numbers.sort()
 if (listLeng % 2 !=0 ):
     print(numbers[listLeng // 2 ])
 else:
-    med = (numbers[listLeng // 2 ] + numbers[listleng // 2 + 1 ]) / 2
+    med = (numbers[listLeng // 2 ] + numbers[listLeng // 2 - 1 ]) / 2
     print( med)
